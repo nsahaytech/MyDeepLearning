@@ -1,0 +1,14 @@
+name: deep-learning-keras
+channels:
+   - menpo
+dependencies:
+  - python=3.5
+  - opencv3
+  - numpy
+  - scipy
+  - jupyter
+  - ipykernel
+  - pillow
+  - pip:
+    - tensorflow==1.4.0
+    - keras==2.1.1
